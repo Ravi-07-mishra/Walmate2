@@ -1,0 +1,1002 @@
+[
+    {
+        "id": 1,
+        "product_code": "PID001",
+        "name": "H\\&M",
+        "description": "Men Black Pure Cotton T-Shirt",
+        "price": 499,
+        "material": "100% Cotton  ",
+        "durability": "Lightweight, breathable, ideal for everyday wear  ",
+        "imageUrl": "https://media.istockphoto.com/id/896956332/photo/blank-black-polo-shirt-mock-up-isolated-front-and-back.webp?a=1&b=1&s=612x612&w=0&k=20&c=B_qCSgnv8k3bmBujlsV-K_-h464WaxGm7KYjaMezUcI="
+    },
+    {
+        "id": 2,
+        "product_code": "PID002",
+        "name": "Roadster",
+        "description": "Men White Round Neck Casual T-Shirt",
+        "price": 379,
+        "material": "Cotton blend  ",
+        "durability": "Soft fabric with good color retention  ",
+        "imageUrl": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 3,
+        "product_code": "PID003",
+        "name": "Puma",
+        "description": "Men Navy Blue Printed Sports T-Shirt",
+        "price": 899,
+        "material": "Polyester  ",
+        "durability": "High-performance, sweat-wicking, long-lasting  ",
+        "imageUrl": "https://images.unsplash.com/photo-1621951767587-b24334f11c65?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 4,
+        "product_code": "PID004",
+        "name": "Levi's",
+        "description": "Men Red Classic Fit Polo T-Shirt",
+        "price": 1,
+        "material": "Cotton pique  ",
+        "durability": "Durable collar and cuffs, holds shape over time  ",
+        "imageUrl": "https://images.unsplash.com/photo-1633676747161-35969adecb29?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 5,
+        "product_code": "PID005",
+        "name": "Jack & Jones",
+        "description": "Men Grey Striped Slim Fit T-Shirt",
+        "price": 799,
+        "material": "Cotton and viscose blend  ",
+        "durability": "Fade-resistant fabric, soft on skin  ",
+        "imageUrl": "https://media.istockphoto.com/id/1143039752/photo/young-indian-man-drinking-a-water.webp?a=1&b=1&s=612x612&w=0&k=20&c=9PAFyxyiPgKuq2mMl9dnVR_gwb3OEtWZwDZ1tkhqqIM="
+    },
+    {
+        "id": 6,
+        "product_code": "PID006",
+        "name": "Allen Solly",
+        "description": "Men Green Polo Collar T-Shirt",
+        "price": 599,
+        "material": "Cotton  ",
+        "durability": "Strong stitching, ideal for office casuals  ",
+        "imageUrl": "https://media.istockphoto.com/id/2219880609/photo/green-polo-shirt-front-and-back-isolated-on-white-background-blank-template-for-apparel.webp?a=1&b=1&s=612x612&w=0&k=20&c=tCQXb5fcrI8COA23k94iqP8jvohPOtb9vpkQKj8uVTo="
+    },
+    {
+        "id": 7,
+        "product_code": "PID007",
+        "name": "Nike",
+        "description": "Men Black Dri-FIT Training T-Shirt",
+        "price": 1,
+        "material": "Dri-FIT Polyester  ",
+        "durability": "Moisture-wicking, machine-washable, retains fit  ",
+        "imageUrl": "https://media.istockphoto.com/id/1407618002/photo/african-american-ethnicity-teenage-boys-in-front-of-white-background-wearing-sports-shoe.webp?a=1&b=1&s=612x612&w=0&k=20&c=TZfiAIedAZkihNOaBqg1-DLwYJDEjbrnZB788J6AmwQ="
+    },
+    {
+        "id": 8,
+        "product_code": "PID008",
+        "name": "Adidas",
+        "description": "Men White 3-Stripes T-Shirt",
+        "price": 1,
+        "material": "Cotton and elastane  ",
+        "durability": "Stretchy and maintains color after multiple washes  ",
+        "imageUrl": "https://images.unsplash.com/photo-1593808821563-ed6abf9191fb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWVuJTIwV2hpdGUlMjAzJTIwU3RyaXBlcyUyMFQlMjBTaGlydHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 9,
+        "product_code": "PID009",
+        "name": "US Polo Assn.",
+        "description": "Men Blue Classic Fit Polo T-Shirt",
+        "price": 899,
+        "material": "Cotton-rich  ",
+        "durability": "Enhanced collar strength, fade-resistant  ",
+        "imageUrl": "https://images.unsplash.com/photo-1654432007491-8c97c473a7b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1lbiUyMEJsdWUlMjBDbGFzc2ljJTIwRml0JTIwUG9sbyUyMFQlMjBTaGlydHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 10,
+        "product_code": "PID010",
+        "name": "Tommy Hilfiger",
+        "description": "Men Pink Signature Logo T-Shirt",
+        "price": 2,
+        "material": "Premium organic cotton  ",
+        "features": "Premium finish, wrinkle-resistant  ",
+        "imageUrl": "https://images.unsplash.com/photo-1622383128901-aa2c3399c75c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWVuJTIwUGluayUyMFNpZ25hdHVyZSUyMExvZ28lMjBUJTIwU2hpcnR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 11,
+        "product_code": "PID011",
+        "name": "Arrow",
+        "description": "Men White Slim Fit Formal Shirt",
+        "price": 1,
+        "material": "Cotton-rich  ",
+        "durability": "Ideal for daily office wear; anti-crease treatment  ",
+        "imageUrl": "https://images.unsplash.com/photo-1603252109612-24fa03d145c8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TWVuJTIwV2hpdGUlMjBTbGltJTIwRml0JTIwRm9ybWFsJTIwU2hpcnR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 12,
+        "product_code": "PID012",
+        "name": "Peter England",
+        "description": "Men Blue Checkered Casual Shirt",
+        "price": 899,
+        "material": "Cotton blend  ",
+        "durability": "Soft texture with high stitch integrity  ",
+        "imageUrl": "https://images.unsplash.com/photo-1619438760059-0e06d4a57520?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWVuJTIwQmx1ZSUyMENoZWNrZXJlZCUyMENhc3VhbCUyMFNoaXJ0fGVufDB8fDB8fHww"
+    },
+    {
+        "id": 13,
+        "product_code": "PID013",
+        "name": "Van Heusen",
+        "description": "Men Black Slim Fit Office Shirt",
+        "price": 1,
+        "material": "Cotton with polyester  ",
+        "durability": "Fade-resistant, excellent for long workdays  ",
+        "imageUrl": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fE1lbiUyMEJsYWNrJTIwU2xpbSUyMEZpdCUyME9mZmljZSUyMFNoaXJ0fGVufDB8fDB8fHww"
+    },
+    {
+        "id": 14,
+        "product_code": "PID014",
+        "name": "Louis Philippe",
+        "description": "Men Grey Striped Formal Shirt",
+        "price": 1,
+        "material": "100% Cotton  ",
+        "durability": "Premium finish, reinforced cuffs and collar  ",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1664391698901-34f190328e71?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWVuJTIwR3JleSUyMFN0cmlwZWQlMjBGb3JtYWwlMjBTaGlydHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 15,
+        "product_code": "PID015",
+        "name": "Levi's",
+        "description": "Men Denim Blue Regular Fit Shirt",
+        "price": 1,
+        "material": "Pure denim cotton  ",
+        "durability": "Long-lasting and rugged  ",
+        "imageUrl": "https://images.unsplash.com/photo-1618591552964-837a5a315fb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWVuJTIwRGVuaW0lMjBCbHVlJTIwUmVndWxhciUyMEZpdCUyMFNoaXJ0fGVufDB8fDB8fHww"
+    },
+    {
+        "id": 16,
+        "product_code": "PID016",
+        "name": "Wrangler",
+        "description": "Men Olive Green Casual Shirt",
+        "price": 1,
+        "material": "Brushed cotton  ",
+        "durability": "Resists pilling, ideal for outdoor use  ",
+        "imageUrl": "https://images.unsplash.com/photo-1585011865814-806ca51e54ba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8TWVuJTIwT2xpdmUlMjBHcmVlbiUyMENhc3VhbCUyMFNoaXJ0fGVufDB8fDB8fHww"
+    },
+    {
+        "id": 17,
+        "product_code": "PID017",
+        "name": "Blackberrys",
+        "description": "Men White Linen Shirt",
+        "price": 1,
+        "material": "100% Linen  ",
+        "durability": "Breathable, best for summer, needs gentle care  ",
+        "imageUrl": "https://images.unsplash.com/photo-1621773881532-fe65715b5137?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWVuJTIwV2hpdGUlMjBMaW5lbiUyMFNoaXJ0fGVufDB8fDB8fHww"
+    },
+    {
+        "id": 18,
+        "product_code": "PID018",
+        "name": "Raymond",
+        "description": "Men Pink Printed Party Shirt",
+        "price": 1,
+        "material": "Cotton-modal blend  ",
+        "durability": "Soft, lightweight, retains print brightness  ",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1725655855941-3f41a805ffb3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fE1lbiUyMFBpbmslMjBQcmludGVkJTIwUGFydHklMjBTaGlydHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 19,
+        "product_code": "PID019",
+        "name": "Flying Machine",
+        "description": "Men Yellow Slim Fit Shirt",
+        "price": 999,
+        "material": "Cotton poplin  ",
+        "durability": "Shrink-resistant and colorfast  ",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1691367279403-aaa787d264f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8TWVuJTIwWWVsbG93JTIwU2xpbSUyMEZpdCUyMFNoaXJ0fGVufDB8fDB8fHww"
+    },
+    {
+        "id": 20,
+        "product_code": "PID020",
+        "name": "Indian Terrain",
+        "description": "Men Khaki Relaxed Fit Shirt",
+        "price": 1,
+        "material": "100% Cotton  ",
+        "durability": "Reinforced seams, casual wear resilience  ",
+        "imageUrl": "https://media.istockphoto.com/id/988389836/photo/indian-police-man.webp?a=1&b=1&s=612x612&w=0&k=20&c=EiyR3xOcoKyL9ts-dyb7-eI-xMc433Fu_d8udXQNQxc="
+    },
+    {
+        "id": 21,
+        "product_code": "PID021",
+        "name": "Levi's",
+        "description": "Men Black 511 Slim Fit Jeans",
+        "price": 2,
+        "material": "Cotton with elastane  ",
+        "durability": "Stretches comfortably, durable for everyday wear  ",
+        "imageUrl": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWVuJTIwQmxhY2slMjA1MTElMjBTbGltJTIwRml0JTIwSmVhbnN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 22,
+        "product_code": "PID022",
+        "name": "Wrangler",
+        "description": "Men Blue Regular Fit Jeans",
+        "price": 1,
+        "material": "Pure denim cotton  ",
+        "durability": "Long-lasting, rugged weave, great for daily use  ",
+        "imageUrl": "https://media.istockphoto.com/id/2208324776/photo/portrait-of-elegant-man-sitting-on-yellow-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=DZd9oAlAuBpyZTiKOPcwkfobXcrYS_-pFT-qmeIecnY="
+    },
+    {
+        "id": 23,
+        "product_code": "PID023",
+        "name": "Pepe Jeans",
+        "description": "Men Grey Skinny Fit Jeans",
+        "price": 2,
+        "material": "Cotton, polyester & elastane blend  ",
+        "durability": "High-stretch recovery, maintains shape  ",
+        "imageUrl": "https://media.istockphoto.com/id/184658032/photo/young-handsome-man-in-grey-blouse.webp?a=1&b=1&s=612x612&w=0&k=20&c=IZseX_GnUPqkCxSYwGjzaCLpk9wYOMkEHqYEeBuoceI="
+    },
+    {
+        "id": 24,
+        "product_code": "PID024",
+        "name": "Lee",
+        "description": "Men Light Blue Straight Fit Jeans",
+        "price": 1,
+        "material": "Stretchable cotton blend  ",
+        "durability": "Strong waistband, reinforced stitching  ",
+        "imageUrl": "https://images.unsplash.com/photo-1643858039484-f99c3a22d2d3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fE1lbiUyMExpZ2h0JTIwQmx1ZSUyMFN0cmFpZ2h0JTIwRml0JTIwSmVhbnN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 25,
+        "product_code": "PID025",
+        "name": "Spykar",
+        "description": "Men Black Slim Fit Stretchable Jeans",
+        "price": 1,
+        "material": "Stretch cotton denim  ",
+        "durability": "Durable for regular outings, soft feel  ",
+        "imageUrl": "https://images.unsplash.com/photo-1669614661225-ff1c2b25fac8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE1lbiUyMEJsYWNrJTIwU2xpbSUyMEZpdCUyMFN0cmV0Y2hhYmxlJTIwSmVhbnN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 26,
+        "product_code": "PID026",
+        "name": "Killer",
+        "description": "Men Dark Blue Distressed Jeans",
+        "price": 1,
+        "material": "Cotton denim  ",
+        "durability": "Heavy-wash resistant, edgy styling  ",
+        "imageUrl": "https://images.unsplash.com/photo-1624378441864-6eda7eac51cb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1lbiUyMERhcmslMjBCbHVlJTIwRGlzdHJlc3NlZCUyMEplYW5zfGVufDB8fDB8fHww"
+    },
+    {
+        "id": 27,
+        "product_code": "PID027",
+        "name": "Flying Machine",
+        "description": "Men Grey Tapered Fit Jeans",
+        "price": 1,
+        "material": "Stretchable cotton denim  ",
+        "durability": "Fade-resistant, designed for flexible movement  ",
+        "imageUrl": "https://media.istockphoto.com/id/1467934918/photo/black-handsome-man-of-african-descent-wearing-white-shirt-brown-fabric-pants-black-summer.webp?a=1&b=1&s=612x612&w=0&k=20&c=l9W6fo80c6LL9UP_e5omyhohDxCM7dbJ3TiyTXHoQIw="
+    },
+    {
+        "id": 28,
+        "product_code": "PID028",
+        "name": "Jack & Jones",
+        "description": "Men Black Ripped Jeans",
+        "price": 2,
+        "material": "Cotton, polyester, and elastane  ",
+        "durability": "Fashion-forward, retains strength despite rips  ",
+        "imageUrl": "https://images.unsplash.com/photo-1594194610831-c3f92ec62180?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWVuJTIwQmxhY2slMjBSaXBwZWQlMjBKZWFuc3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 29,
+        "product_code": "PID029",
+        "name": "US Polo Assn.",
+        "description": "Men Mid Blue Relaxed Fit Jeans",
+        "price": 1,
+        "material": "Pure cotton denim  ",
+        "durability": "Relaxed build, suitable for long wear hours  ",
+        "imageUrl": "https://images.unsplash.com/photo-1661352754488-4776516fcf31?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fE1lbiUyME1pZCUyMEJsdWUlMjBSZWxheGVkJTIwRml0JTIwSmVhbnN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 30,
+        "product_code": "PID030",
+        "name": "Roadster",
+        "description": "Men Olive Green Slim Fit Jeans",
+        "price": 999,
+        "material": "Cotton with elastane  ",
+        "durability": "Ideal for rough use, garment-dyed durability  ",
+        "imageUrl": "https://media.istockphoto.com/id/1494495638/photo/attractive-young-indian-man-full-height-portrait-in-black-t-shirt-silver-neck-chain-in-green.webp?a=1&b=1&s=612x612&w=0&k=20&c=rzw3FyacaG3qRjm49Jw2Hl1L81azQo8dpNd7XpwSesE="
+    },
+    {
+        "id": 31,
+        "product_code": "PID031",
+        "name": "H\\&M",
+        "description": "Men Black Slim Fit Chinos",
+        "price": 1,
+        "material": "Cotton twill with slight stretch  ",
+        "durability": "Everyday wear; holds shape after multiple washes  ",
+        "imageUrl": "https://media.istockphoto.com/id/1467935929/photo/black-handsome-man-of-african-descent-wearing-white-shirt-brown-fabric-pants-black-sport-shoe.webp?a=1&b=1&s=612x612&w=0&k=20&c=VJuAmjtmt5Chr7Ce1I20oxJuRMdK9PtY9lD46F8wPho="
+    },
+    {
+        "id": 32,
+        "product_code": "PID032",
+        "name": "Zara",
+        "description": "Men Grey Tailored Fit Trousers",
+        "price": 1,
+        "material": "Polyester-viscose blend  ",
+        "durability": "Wrinkle-resistant, sharp tailoring for formal use  ",
+        "imageUrl": "https://media.istockphoto.com/id/1446228002/photo/happy-young-man-student-business-in-black-classic-style-shirt-and-grey-trousers-running.webp?a=1&b=1&s=612x612&w=0&k=20&c=WDZu4hUMP060z4M2nKSaf9nEkUsD2PJ7oYx9WGs5IrI="
+    },
+    {
+        "id": 33,
+        "product_code": "PID033",
+        "name": "Allen Solly",
+        "description": "Men Beige Regular Fit Formal Pants",
+        "price": 1,
+        "material": "Cotton blend with lycra  ",
+        "durability": "Fade-free finish, office-grade comfort  ",
+        "imageUrl": "https://images.unsplash.com/photo-1749096291459-32c38f03e6df?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWVuJTIwQmVpZ2UlMjBSZWd1bGFyJTIwRml0JTIwRm9ybWFsJTIwUGFudHN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 34,
+        "product_code": "PID034",
+        "name": "Peter England",
+        "description": "Men Navy Blue Office Trousers",
+        "price": 1,
+        "material": "Poly viscose  ",
+        "durability": "Budget-friendly, maintains color and crease  ",
+        "imageUrl": "https://images.unsplash.com/photo-1593621224943-9df08798f6a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TWVuJTIwTmF2eSUyMEJsdWUlMjBPZmZpY2UlMjBUcm91c2Vyc3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 35,
+        "product_code": "PID035",
+        "name": "Van Heusen",
+        "description": "Men White Slim Fit Linen Pants",
+        "price": 1,
+        "material": "Pure linen  ",
+        "durability": "Lightweight, breathable, delicate care required  ",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1689977493146-ed929d07d97e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fE1lbiUyMFdoaXRlJTIwU2xpbSUyMEZpdCUyMExpbmVuJTIwUGFudHN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 36,
+        "product_code": "PID036",
+        "name": "Arrow",
+        "description": "Men Charcoal Grey Formal Trousers",
+        "price": 1,
+        "material": "Poly-wool blend  ",
+        "durability": "Premium finish, resists wrinkles and sagging  ",
+        "imageUrl": "https://images.unsplash.com/photo-1736555142217-916540c7f1b7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fE1lbiUyMENoYXJjb2FsJTIwR3JleSUyMEZvcm1hbCUyMFRyb3VzZXJzfGVufDB8fDB8fHww"
+    },
+    {
+        "id": 37,
+        "product_code": "PID037",
+        "name": "Levi's",
+        "description": "Men Olive Green Cargo Pants",
+        "price": 1,
+        "material": "Cotton twill  ",
+        "durability": "Heavy-duty wear, utility pockets reinforced  ",
+        "imageUrl": "https://media.istockphoto.com/id/1494495638/photo/attractive-young-indian-man-full-height-portrait-in-black-t-shirt-silver-neck-chain-in-green.webp?a=1&b=1&s=612x612&w=0&k=20&c=rzw3FyacaG3qRjm49Jw2Hl1L81azQo8dpNd7XpwSesE="
+    },
+    {
+        "id": 38,
+        "product_code": "PID038",
+        "name": "UCB",
+        "description": "Men Khaki Relaxed Fit Chinos",
+        "price": 1,
+        "material": "Stretchable cotton  ",
+        "durability": "Comfortable for extended hours, durable fabric  ",
+        "imageUrl": "https://images.unsplash.com/photo-1536588718194-4b38b74a8f54?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fE1lbiUyMFBvbGljZSUyMHBhbnRzJTIwaW5kaWFuJTIwa2hha2l8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 39,
+        "product_code": "PID039",
+        "name": "Indian Terrain",
+        "description": "Men Brown Casual Pants",
+        "price": 1,
+        "material": "Brushed cotton  ",
+        "durability": "Rich color, anti-pilling finish  ",
+        "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1lbiUyMEJyb3duJTIwQ2FzdWFsJTIwUGFudHN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 40,
+        "product_code": "PID040",
+        "name": "Flying Machine",
+        "description": "Men Black Jogger Pants",
+        "price": 899,
+        "material": "Cotton with elastane  ",
+        "durability": "Flexible for gym and casual use, fade-resistant  ",
+        "imageUrl": "https://images.unsplash.com/photo-1669159423685-4fa4e23faaad?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWVuJTIwQmxhY2slMjBKb2dnZXIlMjBQYW50c3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 41,
+        "product_code": "PID041",
+        "name": "Puma",
+        "description": "Men Black Solid Hooded Jacket",
+        "price": 2,
+        "material": "Polyester with fleece lining  ",
+        "durability": "Weather-resistant, good for mild winters  ",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1671030274122-b6ac34f87b8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TWVuJTIwQmxhY2slMjBTb2xpZCUyMEhvb2RlZCUyMEphY2tldHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 42,
+        "product_code": "PID042",
+        "name": "Nike",
+        "description": "Men Navy Blue Windcheater Jacket",
+        "price": 3,
+        "material": "Nylon with mesh lining  ",
+        "durability": "Windproof and water-repellent, ideal for outdoor runs  ",
+        "imageUrl": "https://images.unsplash.com/photo-1624548140129-74786c5f1279?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8TWVuJTIwTmF2eSUyMEJsdWUlMjBXaW5kY2hlYXRlciUyMEphY2tldHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 43,
+        "product_code": "PID043",
+        "name": "Adidas",
+        "description": "Men Grey Fleece Hoodie",
+        "price": 2,
+        "material": "Cotton-polyester fleece  ",
+        "durability": "Warm, breathable, retains softness over time  ",
+        "imageUrl": "https://images.unsplash.com/photo-1667586680656-6b8e381cddb5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWVuJTIwR3JleSUyMEZsZWVjZSUyMEhvb2RpZXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 44,
+        "product_code": "PID044",
+        "name": "HRX",
+        "description": "Men Olive Green Puffer Jacket",
+        "price": 1,
+        "material": "Polyester with synthetic fill  ",
+        "durability": "Lightweight and durable, suited for colder climates  ",
+        "imageUrl": "https://images.unsplash.com/photo-1579592610812-49855d94db0d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TWVuJTIwT2xpdmUlMjBQdWZmZXIlMjBKYWNrZXR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 45,
+        "product_code": "PID045",
+        "name": "The North Face",
+        "description": "Men Black Waterproof Jacket",
+        "price": 6,
+        "material": "Gore-Tex® waterproof fabric  ",
+        "durability": "Highly durable, extreme weather protection  ",
+        "imageUrl": "https://images.unsplash.com/photo-1721745848080-3ed6f21e7ba8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fE1lbiUyMEJsYWNrJTIwV2F0ZXJwcm9vZiUyMEphY2tldHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 46,
+        "product_code": "PID046",
+        "name": "Superdry",
+        "description": "Men Red Bomber Jacket",
+        "price": 4,
+        "material": "Nylon outer with padded polyester  ",
+        "durability": "Urban utility style, lasts years with minimal wear  ",
+        "imageUrl": "https://images.unsplash.com/photo-1662034646502-6df298cf00e0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TWVuJTIwUmVkJTIwQm9tYmVyJTIwSmFja2V0fGVufDB8fDB8fHww"
+    },
+    {
+        "id": 47,
+        "product_code": "PID047",
+        "name": "Jack & Jones",
+        "description": "Men Blue Denim Jacket",
+        "price": 2,
+        "material": "100% Denim cotton  ",
+        "durability": "Classic style, extremely long-lasting  ",
+        "imageUrl": "https://media.istockphoto.com/id/1310533180/photo/cheerful-fashionable-adult-man-in-city-setting.webp?a=1&b=1&s=612x612&w=0&k=20&c=cLikG9LNyw-OU3na0UP90b1SHn9ymia_KN5XEvIbdJQ="
+    },
+    {
+        "id": 48,
+        "product_code": "PID048",
+        "name": "Roadster",
+        "description": "Men Khaki Hooded Sweatshirt",
+        "price": 1,
+        "material": "Cotton-blend fleece  ",
+        "durability": "Great for layering, soft fabric  ",
+        "imageUrl": "https://media.istockphoto.com/id/2172625058/photo/photo-of-pretty-confident-man-wear-green-khaki-sweatshirt-pointing-thumb-empty-space-isolated.webp?a=1&b=1&s=612x612&w=0&k=20&c=fTI5YkcZV4aussJ4SEOyecAY6tXe8tIxL1iIVYw2b1U="
+    },
+    {
+        "id": 49,
+        "product_code": "PID049",
+        "name": "Levi's",
+        "description": "Men Black Biker Jacket",
+        "price": 5,
+        "material": "PU leather  ",
+        "durability": "Stylish and scratch-resistant; not for heavy winters  ",
+        "imageUrl": "https://images.unsplash.com/photo-1577540340708-5417efb4d4b9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWVuJTIwQmxhY2slMjBCaWtlciUyMEphY2tldHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 50,
+        "product_code": "PID050",
+        "name": "US Polo Assn.",
+        "description": "Men White Full-Zip Hoodie",
+        "price": 2,
+        "material": "Brushed cotton fleece  ",
+        "durability": "Soft interior, holds shape, ideal for daily use  ",
+        "imageUrl": "https://images.unsplash.com/photo-1738486260622-c7f3a11127b9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE1lbiUyMFdoaXRlJTIwRnVsbCUyMFppcCUyMEhvb2RpZXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 51,
+        "product_code": "PID051",
+        "name": "H\\&M",
+        "description": "Women White Round Neck Casual T-Shirt",
+        "price": 499,
+        "material": "100% Cotton  ",
+        "durability": "Lightweight and breathable, perfect for everyday wear  ",
+        "imageUrl": "https://media.istockphoto.com/id/2152283543/photo/template-of-a-stylish-white-t-shirt-with-a-round-neck-on-a-blonde-girl-posing-against-the.webp?a=1&b=1&s=612x612&w=0&k=20&c=sVbbxy_Aa34aXyTEmwrhlR4fdznWipjVVQMpmWkJGfg="
+    },
+    {
+        "id": 52,
+        "product_code": "PID052",
+        "name": "Zara",
+        "description": "Women Black Oversized Fit T-Shirt",
+        "price": 799,
+        "material": "Cotton-modal blend  ",
+        "durability": "Flowy, durable shape, retains black color well  ",
+        "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dCUyMHNoaXJ0fGVufDB8fDB8fHww"
+    },
+    {
+        "id": 53,
+        "product_code": "PID053",
+        "name": "Forever 21",
+        "description": "Women Pink Printed Crop Top",
+        "price": 599,
+        "material": "Cotton with elastane  ",
+        "durability": "Stretchable, suitable for casual wear  ",
+        "imageUrl": "https://media.istockphoto.com/id/2212439064/photo/photo-of-confident-young-blogger-lady-hold-yellow-apple-device-apple-phone-15-last-model-wear.webp?a=1&b=1&s=612x612&w=0&k=20&c=lL_81ERfVu9tvtCQ9hnZ9k9YiZ_bCT7SPVK8gOTN_dM="
+    },
+    {
+        "id": 54,
+        "product_code": "PID054",
+        "name": "Only",
+        "description": "Women Grey Striped Casual T-Shirt",
+        "price": 699,
+        "material": "Cotton-polyester blend  ",
+        "durability": "Good wash performance, stays soft  ",
+        "imageUrl": "https://images.unsplash.com/photo-1659355750876-17fd99551641?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V29tZW4lMjBHcmV5JTIwU3RyaXBlZCUyMENhc3VhbCUyMFQlMjBTaGlydHxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 55,
+        "product_code": "PID055",
+        "name": "Mango",
+        "description": "Women Blue V-Neck T-Shirt",
+        "price": 1,
+        "material": "Viscose  ",
+        "durability": "Soft drape, moderate durability  ",
+        "imageUrl": "https://images.unsplash.com/photo-1561626639-1d0737ea4b3c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8V29tZW4lMjBCbHVlJTIwViUyME5lY2slMjBUJTIwU2hpcnR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 56,
+        "product_code": "PID056",
+        "name": "Nike",
+        "description": "Women Black Sports T-Shirt",
+        "price": 1,
+        "material": "Dri-FIT Polyester  ",
+        "durability": "Sweat-wicking, ideal for workout sessions  ",
+        "imageUrl": "https://media.istockphoto.com/id/1138400591/photo/shirt-design-and-people-concept-close-up-of-young-man-in-blank-black-tshirt-front-and-rear.webp?a=1&b=1&s=612x612&w=0&k=20&c=fl5Mybaa-SKHjl4b3flBt5us4pJDLUL6IIL7uLQPIrM="
+    },
+    {
+        "id": 57,
+        "product_code": "PID057",
+        "name": "Puma",
+        "description": "Women White Logo Printed T-Shirt",
+        "price": 999,
+        "material": "Cotton  ",
+        "durability": "Everyday use, fade-resistant  ",
+        "imageUrl": "https://images.unsplash.com/photo-1600328759671-85927887458d?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V29tZW4lMjBXaGl0ZSUyMExvZ28lMjBQcmludGVkJTIwVCUyMFNoaXJ0fGVufDB8fDB8fHww"
+    },
+    {
+        "id": 58,
+        "product_code": "PID058",
+        "name": "Adidas",
+        "description": "Women Navy Blue Relaxed Fit Top",
+        "price": 1,
+        "material": "Cotton-viscose  ",
+        "durability": "Loose-fit, doesn’t shrink easily  ",
+        "imageUrl": "https://media.istockphoto.com/id/1372762833/photo/young-woman-using-mobile-phone-and-sitting-on-an-armchair.webp?a=1&b=1&s=612x612&w=0&k=20&c=0xKS_RC0l92AO3w8wURGm1mPH2EGxKHkwt-8Fgmsbfo="
+    },
+    {
+        "id": 59,
+        "product_code": "PID059",
+        "name": "Roadster",
+        "description": "Women Olive Green Casual T-Shirt",
+        "price": 379,
+        "material": "Cotton blend  ",
+        "durability": "Casual wear, comfortable for summer  ",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1682965455202-b03aa36747ba?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8V29tZW4lMjBPbGl2ZSUyMEdyZWVuJTIwQ2FzdWFsJTIwVCUyMFNoaXJ0fGVufDB8fDB8fHww"
+    },
+    {
+        "id": 60,
+        "product_code": "PID060",
+        "name": "Levi's",
+        "description": "Women Red Polo Collar T-Shirt",
+        "price": 1,
+        "material": "Cotton pique  ",
+        "durability": "Lasts long, holds shape well  ",
+        "imageUrl": "https://media.istockphoto.com/id/838493360/photo/golf-red-tee-shirt-for-man-or-woman.webp?a=1&b=1&s=612x612&w=0&k=20&c=WBQ2J-GfyBemOEtBTajXNCPhvtw6E3ROe80TbT1IG_s="
+    },
+    {
+        "id": 61,
+        "product_code": "PID061",
+        "name": "H\\&M",
+        "description": "Women Black Bodycon Dress",
+        "price": 1,
+        "material": "Stretch polyester  ",
+        "durability": "Body-hugging fit, stretch recovery  ",
+        "imageUrl": "https://media.istockphoto.com/id/1666132672/photo/beautiful-young-woman-posing-full-length.webp?a=1&b=1&s=612x612&w=0&k=20&c=teQXSQ0fH8I0ruhbNtzvJ5QYctEkDofijUxcRrHVzSA="
+    },
+    {
+        "id": 62,
+        "product_code": "PID062",
+        "name": "Zara",
+        "description": "Women White Floral Sundress",
+        "price": 2,
+        "material": "Cotton viscose  ",
+        "durability": "Lightweight, needs careful washing  ",
+        "imageUrl": "https://media.istockphoto.com/id/2150387123/photo/smiling-woman-in-floral-mini-dress-and-straw-hat-on-sunny-beach-fashionable-female-enjoys.webp?a=1&b=1&s=612x612&w=0&k=20&c=RvbU5gqfK9NfeoLBgYy1Wqe3SM34R5Gamfk5BgRcG2g="
+    },
+    {
+        "id": 63,
+        "product_code": "PID063",
+        "name": "Forever 21",
+        "description": "Women Pink Casual Fit Dress",
+        "price": 899,
+        "material": "Polyester blend  ",
+        "durability": "Fast drying, good for regular use  ",
+        "imageUrl": "https://media.istockphoto.com/id/2166716080/photo/model-in-pink-polka-dot-dress-and-gloves-with-black-hat-in-london-jumping-of-happiness.webp?a=1&b=1&s=612x612&w=0&k=20&c=53jh84SemY60oY0Lmt2n_oYOcLxxd9vatgLn3EVr3p8="
+    },
+    {
+        "id": 64,
+        "product_code": "PID064",
+        "name": "Mango",
+        "description": "Women Blue Striped Midi Dress",
+        "price": 3,
+        "material": "Linen blend  ",
+        "durability": "Luxury feel, soft to skin, delicate wash  ",
+        "imageUrl": "https://media.istockphoto.com/id/823719784/photo/striped-dress-isolated.webp?a=1&b=1&s=612x612&w=0&k=20&c=lpPqqCRlKH7une9zrwMJ0grgs331A58VZAguPiSbBbM="
+    },
+    {
+        "id": 65,
+        "product_code": "PID065",
+        "name": "Only",
+        "description": "Women Grey Party Dress",
+        "price": 1,
+        "material": "Polyester mesh  ",
+        "durability": "Party wear; limited wear life  ",
+        "imageUrl": "https://images.unsplash.com/photo-1653286432268-1bd6db598a79?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8V29tZW4lMjBHcmV5JTIwUGFydHklMjBEcmVzc3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 66,
+        "product_code": "PID066",
+        "name": "Vero Moda",
+        "description": "Women Red Wrap Dress",
+        "price": 1,
+        "material": "Viscose  ",
+        "durability": "Drapes well, best for occasion wear  ",
+        "imageUrl": "https://images.unsplash.com/photo-1508829298730-713792c22189?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V29tZW4lMjBSZWQlMjBXcmFwJTIwRHJlc3N8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 67,
+        "product_code": "PID067",
+        "name": "Bershka",
+        "description": "Women Black Mini Dress",
+        "price": 1,
+        "material": "Cotton spandex  ",
+        "durability": "Comfortable, body-fit, retains elasticity  ",
+        "imageUrl": "https://media.istockphoto.com/id/1252015183/photo/beautiful-young-woman-with-mini-black-dress-sitting-on-white-chair-front-of-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=AB2gauoVgv650xwIkHpRjB9YZjDkIp7FgVeMLdhEvrs="
+    },
+    {
+        "id": 68,
+        "product_code": "PID068",
+        "name": "Nike",
+        "description": "Women Grey Sports Dress",
+        "price": 1,
+        "material": "Polyester Dri-FIT  ",
+        "durability": "Built for workouts, quick-dry  ",
+        "imageUrl": "https://images.unsplash.com/photo-1641808887823-b3201916a57d?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8V29tZW4lMjBHcmV5JTIwU3BvcnRzJTIwRHJlc3N8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 69,
+        "product_code": "PID069",
+        "name": "Adidas",
+        "description": "Women Navy Blue Tennis Dress",
+        "price": 2,
+        "material": "Performance polyester  ",
+        "durability": "Made for motion, UV-protect finish  ",
+        "imageUrl": "https://images.unsplash.com/photo-1737230986087-87e28f23b013?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V29tZW4lMjBOYXZ5JTIwQmx1ZSUyMFRlbm5pcyUyMERyZXNzfGVufDB8fDB8fHww"
+    },
+    {
+        "id": 70,
+        "product_code": "PID070",
+        "name": "US Polo Assn.",
+        "description": "Women White Polo Dress",
+        "price": 1,
+        "material": "Cotton pique  ",
+        "durability": "Durable and smart, ideal for summer  ",
+        "imageUrl": "https://images.unsplash.com/photo-1747625120058-f64ad60e24c7?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8V29tZW4lMjBXaGl0ZSUyMFBvbG8lMjBEcmVzc3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+        "id": 71,
+        "product_code": "PID071",
+        "name": "Levi's",
+        "description": "Women Black Skinny Fit Jeans",
+        "price": 2,
+        "material": "Stretch cotton  ",
+        "durability": "Retains shape and stretch for years  ",
+        "imageUrl": "https://images.unsplash.com/photo-1660795990828-0302a2fb7c1a?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8V29tZW4lMjBCbGFjayUyMFNraW5ueSUyMEZpdCUyMEplYW5zfGVufDB8fDB8fHww"
+    },
+    {
+        "id": 72,
+        "product_code": "PID072",
+        "name": "Lee",
+        "description": "Women Blue Straight Fit Jeans",
+        "price": 1,
+        "material": "Pure denim  ",
+        "durability": "High durability, rugged seams  ",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1689536143095-eaa89c407aa7?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8V29tZW4lMjBCbGFjayUyMFNraW5ueSUyMEZpdCUyMEplYW5zfGVufDB8fDB8fHww"
+    },
+    {
+        "id": 73,
+        "product_code": "PID073",
+        "name": "Wrangler",
+        "description": "Women Grey Slim Fit Jeans",
+        "price": 1,
+        "material": "Cotton-poly blend  ",
+        "durability": "Versatile for everyday use  ",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1664546293779-aa61c12975de?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8V29tZW4lMjBHcmV5JTIwU2xpbSUyMEZpdCUyMEplYW5zfGVufDB8fDB8fHww"
+    },
+    {
+        "id": 74,
+        "product_code": "PID074",
+        "name": "Pepe Jeans",
+        "description": "Women Light Blue Distressed Jeans",
+        "price": 2,
+        "material": "Cotton with elastane  ",
+        "durability": "Trendy, moderately durable  ",
+        "imageUrl": "https://images.unsplash.com/photo-1747172892951-646307b0e9da?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8V29tZW4lMjBCbGFjayUyMFNraW5ueSUyMEZpdCUyMEplYW5zfGVufDB8fDB8fHww"
+    },
+    {
+        "id": 75,
+        "product_code": "PID075",
+        "name": "Only",
+        "description": "Women Black High-Rise Jeggings",
+        "price": 1,
+        "material": "Polyester with stretch  ",
+        "durability": "Comfortable and form-hugging  ",
+        "imageUrl": "https://www.only.in/product75"
+    },
+    {
+        "id": 76,
+        "product_code": "PID076",
+        "name": "H\\&M",
+        "description": "Women White Stretchable Jeans",
+        "price": 1,
+        "material": "Cotton with elastane  ",
+        "durability": "Strong fabric, light tone needs care  ",
+        "imageUrl": "https://www.hm.com/product76"
+    },
+    {
+        "id": 77,
+        "product_code": "PID077",
+        "name": "Zara",
+        "description": "Women Olive Green Mom Jeans",
+        "price": 2,
+        "material": "100% cotton  ",
+        "durability": "Premium quality, vintage structure  ",
+        "imageUrl": "https://media.istockphoto.com/id/518757017/photo/visiting-my-second-home.webp?a=1&b=1&s=612x612&w=0&k=20&c=ApD0PnZtA9UtkBYZ0CU_2YdQN7kKyaTC6SfAoaztYoM="
+    },
+    {
+        "id": 78,
+        "product_code": "PID078",
+        "name": "Roadster",
+        "description": "Women Navy Blue Slim Fit Jeans",
+        "price": 999,
+        "material": "Stretch denim  ",
+        "durability": "Budget-friendly, great for daily wear  ",
+        "imageUrl": "https://images.unsplash.com/photo-1562121594-70a275d4b5e1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8V29tZW4lMjBCbGFjayUyMFNraW5ueSUyMEZpdCUyMEplYW5zfGVufDB8fDB8fHww"
+    },
+    {
+        "id": 79,
+        "product_code": "PID079",
+        "name": "Killer",
+        "description": "Women Pink Ripped Jeans",
+        "price": 1,
+        "material": "Cotton blend  ",
+        "durability": "Stylish wear, delicate wash recommended  ",
+        "imageUrl": "https://images.unsplash.com/photo-1574789790058-4c40956fc331?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8V29tZW4lMjBQaW5rJTIwY29sb3VyJTIwUmlwcGVkJTIwSmVhbnN8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "id": 80,
+        "product_code": "PID080",
+        "name": "Flying Machine",
+        "description": "Women Grey Tapered Jeans",
+        "price": 1,
+        "material": "Stretch cotton  ",
+        "durability": "Comfy tapered design, good for travel  ",
+        "imageUrl": "https://media.istockphoto.com/id/1784983705/photo/dark-gray-womens-jeans-levitating-on-a-gray-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=Slll4W1WbeoDbLoQnCx-k3kn2Pt83ykrU-7tehxUIfM="
+    },
+    {
+        "id": 81,
+        "product_code": "PID081",
+        "name": "FabIndia",
+        "description": "Women Blue Cotton Printed Kurta",
+        "price": 1,
+        "material": "Pure cotton  ",
+        "durability": "Skin-friendly, strong traditional fabric  ",
+        "imageUrl": "https://images.unsplash.com/photo-1693990151315-55cdcef5ba90?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8V29tZW4lMjBCbHVlJTIwQ290dG9uJTIwUHJpbnRlZCUyMEt1cnRhfGVufDB8fDB8fHww"
+    },
+    {
+        "id": 82,
+        "product_code": "PID082",
+        "name": "W for Woman",
+        "description": "Women Pink Chikankari Kurta",
+        "price": 1,
+        "material": "Cotton blend  ",
+        "durability": "Elegant embroidery, long lasting  ",
+        "imageUrl": "https://media.istockphoto.com/id/1334313365/photo/young-woman-facial-expression-stock-photo.webp?a=1&b=1&s=612x612&w=0&k=20&c=hq3Is7e9BWe2JxWj9I0iaZNnJzUKmcMvON7YONrzrIg="
+    },
+    {
+        "id": 83,
+        "product_code": "PID083",
+        "name": "Biba",
+        "description": "Women Green Floral Anarkali",
+        "price": 2,
+        "material": "Cotton blend  ",
+        "durability": "Good for festive and repeat wear  ",
+        "imageUrl": "https://media.istockphoto.com/id/1317634342/photo/beautiful-woman-in-long-dress-front-of-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=aOdQ-jKwDYXdfhsUMXhmhr-an3IcBM8t_uV7dtNvaUE="
+    },
+    {
+        "id": 84,
+        "product_code": "PID084",
+        "name": "Global Desi",
+        "description": "Women Yellow Printed Kurta",
+        "price": 1,
+        "material": "Rayon  ",
+        "durability": "Soft, wrinkle-prone but vibrant  ",
+        "imageUrl": "https://media.istockphoto.com/id/1146935764/photo/beautiful-indian-woman.webp?a=1&b=1&s=612x612&w=0&k=20&c=fwvio1UVlwYESGdQio01TqMQC-9rquEkF97XJOs3VHU="
+    },
+    {
+        "id": 85,
+        "product_code": "PID085",
+        "name": "Anouk",
+        "description": "Women Black Straight Fit Kurta",
+        "price": 1,
+        "material": "Cotton-silk  ",
+        "durability": "Elegant sheen, best for occasions  ",
+        "imageUrl": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/28767460/2024/4/8/be78d6d6-5655-45b7-95b3-85936fb50d491712562128598WomensWearBlackChanderisilksolidhandwrokembroideredKurtaPant6.jpg"
+    },
+    {
+        "id": 86,
+        "product_code": "PID086",
+        "name": "Sangria",
+        "description": "Women White Embroidered Kurta",
+        "price": 1,
+        "material": "Rayon cotton  ",
+        "durability": "Delicate embroidery, moderate wear  ",
+        "imageUrl": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/23777684/2023/7/5/5b501f4b-b32f-4ff3-b546-4a56b4110d0e1688535183754-Women-Pure-Cotton-Embroidered--Hand-Work-Straight-Kurta-With-1.jpg"
+    },
+    {
+        "id": 87,
+        "product_code": "PID087",
+        "name": "Inddus",
+        "description": "Women Grey Indo-Western Top",
+        "price": 1,
+        "material": "Polyester crepe  ",
+        "durability": "Fashionable, not suitable for rough use  ",
+        "imageUrl": "https://www.inddus.com/cdn/shop/products/black-thread-embroidered-dress-395727_420x.jpg?v=1747118432"
+    },
+    {
+        "id": 88,
+        "product_code": "PID088",
+        "name": "Manyavar",
+        "description": "Women Red Party Wear Suit",
+        "price": 3,
+        "material": "Silk blend  ",
+        "durability": "Rich look, needs dry clean  ",
+        "imageUrl": "https://manyavar.scene7.com/is/image/manyavar/SAS8495_416-RED_444.28273_04-03-2025-18-41:283x395?&dpr=on,2"
+    },
+    {
+        "id": 89,
+        "product_code": "PID089",
+        "name": "Libas",
+        "description": "Women Navy Blue Printed Kurta",
+        "price": 999,
+        "material": "Cotton  ",
+        "durability": "Perfect for daily ethnic wear  ",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRLwuDWmxnkGHj9PYdWaZObn5ZRhfuu_jylKmIZtj0lFm9IW93lTZS0y1L1vbg9Ft18ChHds7I8I-ylLoi_45Wk6zVVDTFmgl6IIkqr0cuzFSDe9box17ih"
+    },
+    {
+        "id": 90,
+        "product_code": "PID090",
+        "name": "Aurelia",
+        "description": "Women Peach Cotton Kurta",
+        "price": 1,
+        "material": "Pure cotton  ",
+        "durability": "Breathable, summer-perfect  ",
+        "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRAZSS_bFG0Dicti6OXgsUrKx24HJK_BVFUzSKQr_N0-CCw70mkjtk7vBFXrPOu3uqjW1MeFgBzm4wqsyyA2-Vpg-P9KYbR_h5EAp1oUd1o_Uje_KNWih1U"
+    },
+    {
+        "id": 91,
+        "product_code": "PID091",
+        "name": "Nike",
+        "description": "Black Sportswear Hoodie",
+        "price": 2,
+        "material": "Polyester  ",
+        "durability": "Ideal for training and cool weather  ",
+        "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTRqy60vFoCDWoCwyNORHpW0ROB2ic3_qxvtFERWlbSYm_nw9co3Du1G45V4cUJGdLjUHtj3rrSvSQHdH5MatN3D1MHc74DSrYZ9a-sRbwOxdQt_fNUPEd9Ng"
+    },
+    {
+        "id": 92,
+        "product_code": "PID092",
+        "name": "Adidas",
+        "description": "Grey Oversized Hoodie",
+        "price": 2,
+        "material": "Cotton-poly fleece  ",
+        "durability": "Stylish, warm, and long-lasting  ",
+        "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQMdZzr5-cB4Eh6idb4ReLy3Hiiwc0Od5ISgiORJEHlxdv7tmDQCESJ8NzKjM88tIcUnuQJNAzdQX3i4rHaChmAT6CdiXxIE84JdEcHC922oxVp4KKoL8TvGw"
+    },
+    {
+        "id": 93,
+        "product_code": "PID093",
+        "name": "Puma",
+        "description": "White Logo Hoodie",
+        "price": 1,
+        "material": "Cotton blend  ",
+        "durability": "Perfect for light winters  ",
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSejgM9f2S1HS0W-969ND-_XqZhTJIue54LQ7Y8kaR7ncddCXfUdwCUbPUMdrvckfYfQG2rgREE4njOX0HsUvOJbuA48jUep6Jr3x9rzgiy7ZirO7QaWu2tKeY"
+    },
+    {
+        "id": 94,
+        "product_code": "PID094",
+        "name": "H\\&M",
+        "description": "Olive Green Fleece Sweatshirt",
+        "price": 1,
+        "material": "Cotton fleece  ",
+        "durability": "Cozy and perfect for layering  ",
+        "imageUrl": "https://image.hm.com/assets/hm/30/3b/303b85d60eb5e0836e0f2756ff207fc0b59c0c41.jpg?imwidth=1260"
+    },
+    {
+        "id": 95,
+        "product_code": "PID095",
+        "name": "Zara",
+        "description": "Beige Relaxed Fit Hoodie",
+        "price": 2,
+        "material": "Cotton-modal blend  ",
+        "durability": "Smooth and casual, low wrinkle  ",
+        "imageUrl": "https://static.zara.net/assets/public/94cf/14f7/b60d4a49b9f7/3d67b2321552/01538328505-a1/01538328505-a1.jpg?ts=1751620124390&w=433"
+    },
+    {
+        "id": 96,
+        "product_code": "PID096",
+        "name": "Superdry",
+        "description": "Red Checkered Hoodie",
+        "price": 4,
+        "material": "Wool blend  ",
+        "durability": "High-end, long-lasting insulation  ",
+        "imageUrl": "https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/resize-w:360/superdry/M2011852A27J/0/QCMclguT5D-410338858014_1.jpg?dpr=1"
+    },
+    {
+        "id": 97,
+        "product_code": "PID097",
+        "name": "Jack & Jones",
+        "description": "Black Full-Zip Hoodie",
+        "price": 2,
+        "material": "Cotton-poly mix  ",
+        "durability": "Great for daily use  ",
+        "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRznsTaeuxs5ZEvYpIqvypEaGRVm9NMKuADic_a63i8mRhQnPWbxqb13nKlF1W4zxlSem8Z14oItWLa35R9A205w9D3urtSj8e8Xu462YTyGnDsQ4ctVlrK"
+    },
+    {
+        "id": 98,
+        "product_code": "PID098",
+        "name": "Roadster",
+        "description": "Navy Blue Pullover Sweatshirt",
+        "price": 1,
+        "material": "Cotton  ",
+        "durability": "Comfortable for daily casual wear  ",
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRZeLwlMFrWlTFFNzBaVgd4rPzAmZqRMme-Q3F5KbRVG3-x1xeIiuf_Pcu_m7T2OgPiDbR5zfX5VI8q4h1GrCLuUalBxMaFhH9Ae5WTi3M"
+    },
+    {
+        "id": 99,
+        "product_code": "PID099",
+        "name": "US Polo Assn.",
+        "description": "White Cotton Hoodie",
+        "price": 1,
+        "material": "Brushed cotton  ",
+        "durability": "Soft, warm, maintains look after washes  ",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSDskYIJN8tPAsBWGqd2f0K_rDpk2BoNmAKniAARKiv-4xiDrydm0vPpiNhhYSd592n0GWkDcRmxmsLObn_yUzkNrTr4sIq_iHIRpWHhCLW9EkUGKpjUKY45Q"
+    },
+    {
+        "id": 100,
+        "product_code": "PID100",
+        "name": "The North Face",
+        "description": "Black Windproof Hoodie",
+        "price": 5,
+        "material": "Performance polyester with windproof membrane  ",
+        "durability": "Premium weather gear, all-season tough  ",
+        "imageUrl": "https://m.media-amazon.com/images/I/71LzY846LGL.jpg"
+    }
+]
