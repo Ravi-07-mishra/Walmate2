@@ -16,14 +16,19 @@ export interface ProductDetails {
   features?: string[];
 }
 
+// api.ts
+// src/lib/api.ts
 export async function registerUser(username: string, email: string, password: string) {
   const resp = await fetch(`${API}/api/register`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ username, email, password }),
   });
+  
   if (!resp.ok) throw new Error(await resp.text());
-  return resp.json();
+  
+  // Parse and return token response
+  return resp.json() as Promise<{ access_token: string; token_type: string }>;
 }
 
 export async function loginUser(username: string, password: string) {
@@ -32,10 +37,27 @@ export async function loginUser(username: string, password: string) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ username, password }),
   });
+  
   if (!resp.ok) throw new Error(await resp.text());
+  
   return resp.json() as Promise<{ access_token: string; token_type: string }>;
 }
-
+export async function logoutUser() {
+  // Clear client-side token
+  localStorage.removeItem('token');
+  
+  // Optional: Call server-side logout endpoint if you have one
+  /*
+  try {
+    await fetch(`${API}/api/logout`, {
+      method: 'POST',
+      credentials: 'include',
+    });
+  } catch (error) {
+    console.error('Logout error:', error);
+  }
+  */
+}
 export async function chatWithBackend(text: string, chatId?: string) {
   const token = localStorage.getItem('token');
   const resp = await fetch(`${API}/api/chat`, {

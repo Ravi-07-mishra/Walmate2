@@ -16,6 +16,7 @@ import {
   Loader2,
   Sparkles,
   ShoppingCart,
+  X,
 } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -32,6 +33,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
+import { cn } from '@/lib/utils';
 
 interface Message {
   id: string;
@@ -56,6 +58,7 @@ export default function ChatAssistant() {
   const [currentChatId, setCurrentChatId] = useState<string | null>(null);
   const [products, setProducts] = useState<Record<string, Product>>({});
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [sheetWidth, setSheetWidth] = useState('30rem'); // Default width
   const messagesEndRef = useRef<null | HTMLDivElement>(null);
 
   useEffect(() => {
@@ -193,24 +196,53 @@ export default function ChatAssistant() {
         Shop with WalMate AI
       </Button>
       <Sheet open={isOpen} onOpenChange={setIsOpen}>
-        <SheetContent className="flex flex-col w-full sm:max-w-md">
+        <SheetContent 
+          className="flex flex-col w-full max-w-[95vw]"
+          style={{ width: sheetWidth, maxWidth: '90vw' }}
+        >
           <SheetHeader>
-            <SheetTitle className="flex items-center gap-2">
-              <Sparkles className="text-primary" />
-              WalMate AI Assistant
-            </SheetTitle>
+            <div className="flex justify-between items-center">
+              <div className="flex items-center gap-2">
+                <Sparkles className="text-primary" />
+                <SheetTitle>WalMate AI Assistant</SheetTitle>
+              </div>
+              <div className="flex gap-2">
+                <Button 
+                  variant="ghost" 
+                  size="icon"
+                  onClick={() => setSheetWidth(prev => 
+                    prev === '30rem' ? '40rem' : 
+                    prev === '40rem' ? '50rem' : '30rem'
+                  )}
+                >
+                  <div className="flex flex-col items-center justify-center text-xs">
+                    <span>{parseInt(sheetWidth) / 10}rem</span>
+                    <span>↔️</span>
+                  </div>
+                </Button>
+                <Button 
+                  variant="ghost" 
+                  size="icon" 
+                  onClick={() => setIsOpen(false)}
+                >
+                  <X className="h-5 w-5" />
+                </Button>
+              </div>
+            </div>
             <SheetDescription>
               Your smart shopping partner. Ask me anything!
             </SheetDescription>
           </SheetHeader>
+          
           <ScrollArea className="flex-1 -mx-6">
             <div className="px-6 py-4 space-y-4">
               {messages.map((message) => (
                 <div
                   key={message.id}
-                  className={`flex items-start gap-3 ${
+                  className={cn(
+                    "flex items-start gap-3",
                     message.role === 'user' ? 'justify-end' : ''
-                  }`}
+                  )}
                 >
                   {message.role === 'assistant' && (
                     <Avatar className="h-8 w-8">
@@ -220,15 +252,16 @@ export default function ChatAssistant() {
                     </Avatar>
                   )}
                   <div
-                    className={`max-w-xs rounded-lg p-3 ${
+                    className={cn(
+                      "max-w-[80%] rounded-lg p-3",
                       message.role === 'user'
                         ? 'bg-primary text-primary-foreground'
                         : 'bg-muted'
-                    }`}
+                    )}
                   >
                     {message.content && <p className="text-sm">{message.content}</p>}
                     {message.role === 'assistant' && message.product_ids && message.product_ids.length > 0 && (
-                      <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 gap-4">
                         {message.product_ids.map((productId) => {
                           const product = products[productId];
                           return product ? (
@@ -253,6 +286,13 @@ export default function ChatAssistant() {
                       </div>
                     )}
                   </div>
+                  {message.role === 'user' && (
+                    <Avatar className="h-8 w-8">
+                      <AvatarFallback className="bg-foreground text-background">
+                        <span className="text-xs">U</span>
+                      </AvatarFallback>
+                    </Avatar>
+                  )}
                 </div>
               ))}
               {isLoading && (
@@ -270,6 +310,7 @@ export default function ChatAssistant() {
               <div ref={messagesEndRef} />
             </div>
           </ScrollArea>
+          
           <SheetFooter className="pt-4">
             <div className="flex flex-col w-full gap-3">
               <div className="flex w-full items-center gap-2">
@@ -280,11 +321,19 @@ export default function ChatAssistant() {
                   onChange={(e) => setInput(e.target.value)}
                   onKeyDown={(e) => e.key === 'Enter' && !isLoading && handleSendMessage()}
                   disabled={isLoading}
+                  className="flex-1"
                 />
                 <Button 
-                  variant="ghost" 
+                  variant="secondary" 
                   size="icon" 
                   disabled={isLoading}
+                >
+                  <Mic className="h-5 w-5" />
+                </Button>
+                <Button 
+                  variant="default" 
+                  size="icon" 
+                  disabled={isLoading || !input.trim()}
                   onClick={() => handleSendMessage()}
                 >
                   <Send className="h-5 w-5" />
@@ -298,7 +347,7 @@ export default function ChatAssistant() {
                     size="sm"
                     onClick={() => handleSendMessage(q)}
                     disabled={isLoading}
-                    className="text-xs"
+                    className="text-xs whitespace-nowrap overflow-hidden text-ellipsis max-w-[180px]"
                   >
                     {q}
                   </Button>
@@ -311,50 +360,61 @@ export default function ChatAssistant() {
 
       {/* Product Detail Dialog */}
       <Dialog open={!!selectedProduct} onOpenChange={(open) => !open && setSelectedProduct(null)}>
-        <DialogContent className="sm:max-w-2xl">
+        <DialogContent className="sm:max-w-3xl">
           {selectedProduct && (
             <div className="flex flex-col md:flex-row gap-6">
-              <div className="w-full md:w-1/2">
-                <img
-                  src={selectedProduct.image_url}
-                  alt={selectedProduct.name}
-                  className="w-full h-auto rounded-lg"
-                />
+              <div className="w-full md:w-2/5">
+                <div className="bg-gray-100 rounded-lg aspect-square flex items-center justify-center">
+                  <img
+                    src={selectedProduct.image_url}
+                    alt={selectedProduct.name}
+                    className="w-full h-auto max-h-[400px] object-contain rounded-lg"
+                  />
+                </div>
               </div>
-              <div className="w-full md:w-1/2">
+              <div className="w-full md:w-3/5">
                 <DialogHeader>
-                  <DialogTitle>{selectedProduct.name}</DialogTitle>
-                  <DialogDescription>
-                    <p className="text-lg font-bold text-primary mt-2">
+                  <DialogTitle className="text-2xl">{selectedProduct.name}</DialogTitle>
+                  <div className="mt-4 space-y-4">
+                    <p className="text-2xl font-bold text-primary">
                       ₹{selectedProduct.price.toLocaleString('en-IN')}
                     </p>
-                    <p className="mt-4">{selectedProduct.description}</p>
+                    <div className="bg-muted p-4 rounded-lg">
+                      <p className="text-foreground">{selectedProduct.description}</p>
+                    </div>
                     {selectedProduct.material && (
                       <p className="mt-2">
-                        <strong>Material:</strong> {selectedProduct.material}
+                        <strong className="text-foreground">Material:</strong> {selectedProduct.material}
                       </p>
                     )}
                     {selectedProduct.features && selectedProduct.features.length > 0 && (
                       <div className="mt-4">
-                        <h4 className="font-semibold">Features:</h4>
-                        <ul className="list-disc list-inside">
+                        <h4 className="font-semibold text-lg">Features:</h4>
+                        <ul className="list-disc list-inside mt-2 space-y-1">
                           {selectedProduct.features.map((feature, index) => (
                             <li key={index}>{feature}</li>
                           ))}
                         </ul>
                       </div>
                     )}
-                  </DialogDescription>
+                  </div>
                 </DialogHeader>
-                <div className="mt-6 flex gap-2">
-                  <Button onClick={() => {
-                    handleProductSelect(selectedProduct);
-                    setSelectedProduct(null);
-                  }}>
-                    <ShoppingCart className="mr-2 h-4 w-4" /> Add to Cart
+                <div className="mt-6 flex gap-3">
+                  <Button 
+                    className="flex-1 py-6 text-lg"
+                    onClick={() => {
+                      handleProductSelect(selectedProduct);
+                      setSelectedProduct(null);
+                    }}
+                  >
+                    <ShoppingCart className="mr-3 h-5 w-5" /> Add to Cart
                   </Button>
-                  <Button variant="outline" onClick={() => setSelectedProduct(null)}>
-                    Close
+                  <Button 
+                    variant="outline" 
+                    className="py-6 text-lg"
+                    onClick={() => setSelectedProduct(null)}
+                  >
+                    Continue Shopping
                   </Button>
                 </div>
               </div>

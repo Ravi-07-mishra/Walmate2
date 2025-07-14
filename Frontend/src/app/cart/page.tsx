@@ -1,16 +1,17 @@
-
 'use client';
 
 import Link from 'next/link';
 import { useCart } from '@/context/cart-context';
 import { Button } from '@/components/ui/button';
+import { useRouter } from 'next/navigation';
+import { ShoppingCart, Trash2, MinusCircle, PlusCircle } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
-import { MinusCircle, PlusCircle, ShoppingCart, Trash2 } from 'lucide-react';
 
 export default function CartPage() {
   const { cartItems, removeFromCart, updateQuantity, cartCount, totalPrice } = useCart();
+  const router = useRouter();
 
   if (cartCount === 0) {
     return (
@@ -37,7 +38,6 @@ export default function CartPage() {
                   src={item.imageUrl}
                   alt={item.name}
                   className="w-full h-full object-cover"
-                  data-ai-hint={item.dataAiHint}
                   loading="lazy"
                 />
               </div>
@@ -46,9 +46,9 @@ export default function CartPage() {
                 <p className="text-primary font-bold">₹{item.price.toLocaleString('en-IN')}</p>
               </div>
               <div className="flex items-center gap-2">
-                 <Button variant="ghost" size="icon" onClick={() => updateQuantity(item.id, item.quantity - 1)}>
-                    <MinusCircle className="h-5 w-5" />
-                 </Button>
+                <Button variant="ghost" size="icon" onClick={() => updateQuantity(item.id, item.quantity - 1)}>
+                  <MinusCircle className="h-5 w-5" />
+                </Button>
                 <Input
                   type="number"
                   value={item.quantity}
@@ -57,7 +57,7 @@ export default function CartPage() {
                   min="1"
                 />
                 <Button variant="ghost" size="icon" onClick={() => updateQuantity(item.id, item.quantity + 1)}>
-                    <PlusCircle className="h-5 w-5" />
+                  <PlusCircle className="h-5 w-5" />
                 </Button>
               </div>
               <Button variant="ghost" size="icon" className="text-destructive hover:text-destructive ml-4" onClick={() => removeFromCart(item.id)}>
@@ -88,7 +88,9 @@ export default function CartPage() {
               </div>
             </CardContent>
             <CardFooter>
-              <Button size="lg" className="w-full">Proceed to Checkout</Button>
+              <Button size="lg" className="w-full" onClick={() => router.push('/payment')}>
+                Proceed to Checkout
+              </Button>
             </CardFooter>
           </Card>
         </div>

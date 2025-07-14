@@ -518,7 +518,8 @@ class ChatSystem:
 Follow these rules strictly:
 1. Only recommend products when explicitly asked or when appropriate to answer the question
 2. When recommending products, include them at the end in format: [RECOMMENDED: PID123, PID456]
-3. For greetings or general questions, don't recommend any products
+3. For greetings , don't recommend any products
+4. If you don't find any product on the product catalog, tell the user that product is not available, search for something else
 
 {preferences}
 <context>
@@ -615,12 +616,15 @@ def verify_token(credentials: HTTPAuthorizationCredentials = Depends(security)):
         )
 
 # API Routes
-@app.post("/api/register", response_model=MessageResponse)
+@app.post("/api/register", response_model=TokenResponse)  # Updated response model
 async def register(user: UserRegister):
     success, message = AuthSystem.register_user(user.username, user.email, user.password)
     if not success:
         raise HTTPException(status_code=400, detail=message)
-    return MessageResponse(message=message, success=True)
+    
+    # Generate access token for the new user
+    access_token = create_access_token(data={"sub": user.username})
+    return {"access_token": access_token, "token_type": "bearer"}
 
 @app.post("/api/login", response_model=TokenResponse)
 async def login(user: UserLogin):

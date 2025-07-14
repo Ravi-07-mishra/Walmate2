@@ -1,4 +1,3 @@
-// src/components/auth/AuthForm.tsx
 'use client';
 
 import { useState } from 'react';
@@ -59,34 +58,65 @@ export default function AuthForm({ type }: AuthFormProps) {
   });
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
-  setIsLoading(true);
-  try {
-    if (isLogin) {
-      const { access_token } = await loginUser(values.username, values.password);
-      localStorage.setItem('token', access_token);
+    setIsLoading(true);
+    try {
+      if (isLogin) {
+        const { access_token } = await loginUser(values.username, values.password);
+        localStorage.setItem('token', access_token);
+
+        // ✅ Dispatch custom event to notify AppHeader
+        window.dispatchEvent(new Event('authChanged'));
+
+        toast({
+          title: 'Login Successful',
+          description: 'Welcome back!',
+        });
+
+        router.push('/');
+      } else {
+        const { access_token } = await registerUser(
+          values.username,
+          values.email,
+          values.password
+        );
+        localStorage.setItem('token', access_token);
+
+        // ✅ Dispatch custom event to notify AppHeader
+        window.dispatchEvent(new Event('authChanged'));
+
+        toast({
+          title: 'Signup Successful',
+          description: 'Your account has been created!',
+        });
+
+        router.push('/preferences');
+      }
+    } catch (error: any) {
+      let errorMessage = 'Something went wrong';
+
+      if (error.message) {
+        try {
+          const errorObj = JSON.parse(error.message);
+          if (errorObj.detail) {
+            errorMessage = errorObj.detail;
+          } else {
+            errorMessage = error.message;
+          }
+        } catch {
+          errorMessage = error.message || 'Something went wrong';
+        }
+      }
+
       toast({
-        title: 'Login Successful',
-        description: 'Welcome back!',
+        variant: 'destructive',
+        title: 'Error',
+        description: errorMessage,
       });
-      router.push('/');
-    } else {
-      await registerUser(values.username, values.email, values.password);
-      toast({
-        title: 'Signup Successful',
-        description: 'Your account has been created!',
-      });
-      router.push('/preferences');
+    } finally {
+      setIsLoading(false);
     }
-  } catch (error: any) {
-    toast({
-      variant: 'destructive',
-      title: 'Error',
-      description: error.message || 'Something went wrong',
-    });
-  } finally {
-    setIsLoading(false);
-  }
-};
+  };
+
   return (
     <Card className="w-full max-w-sm shadow-lg">
       <CardHeader>

@@ -20,7 +20,7 @@ export default function ProductCard({ product, onSelect, onViewDetails }: Produc
     });
 
     return (
-        <Card className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 flex flex-col">
+        <Card className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full">
             <CardContent className="p-0 flex-grow">
                 <div className="relative aspect-square">
                     <img
@@ -47,13 +47,24 @@ export default function ProductCard({ product, onSelect, onViewDetails }: Produc
                     )}
                 </div>
             </CardContent>
-            <CardFooter className="p-4 grid grid-cols-2 gap-2">
-                <Button onClick={onSelect}>
-                    <ShoppingCart className="mr-2 h-4 w-4" /> Add to Cart
-                </Button>
-                <Button variant="outline" onClick={onViewDetails}>
-                    <Eye className="mr-2 h-4 w-4" /> Details
-                </Button>
+            <CardFooter className="p-4 flex flex-col gap-3">
+                <div className="grid grid-cols-2 gap-3 w-full">
+                    <Button 
+                        onClick={onSelect}
+                        className="flex items-center justify-center"
+                    >
+                        <ShoppingCart className="h-4 w-4 mr-2" /> 
+                        <span className="truncate">Add to Cart</span>
+                    </Button>
+                    <Button 
+                        variant="outline" 
+                        onClick={onViewDetails}
+                        className="flex items-center justify-center"
+                    >
+                        <Eye className="h-4 w-4 mr-2" /> 
+                        <span className="truncate">Details</span>
+                    </Button>
+                </div>
             </CardFooter>
         </Card>
     );
