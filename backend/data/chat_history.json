@@ -772,5 +772,191 @@
       "prompt": "anything abolve 1000",
       "response": "I've filtered the products for you! Since you're looking for anything above Rs. 1000, I've excluded products with prices below that. Here are the remaining products:\n\n### *Men's Jackets & Hoodies*\n\n15. *Levi's* Men Denim Blue Regular Fit Shirt \u00e2\u20ac\u201c \u00e2\u201a\u00b91,599  \n    *Product ID*: PID015  \n    *Material*: Pure denim cotton  \n    *Features*: Long-lasting and rugged  \n    *Image link*: [View Product](https://images.unsplash.com/photo-1618591552964-837a5a315fb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWVuJTIwRGVuaW0lMjBCbHVlJTIwUmVndWxhciUyMEZpdCUyMFNoaXJ0fGVufDB8fDB8fHww)\n\n16. *Wrangler* Men Olive Green Casual Shirt \u00e2\u20ac\u201c \u00e2\u201a\u00b91,099  \n    *Product ID*: PID016  \n    *Material*: Brushed cotton  \n    *Features*: Resists pilling, ideal for outdoor use  \n    *Image link*: [View Product](https://images.unsplash.com/photo-1585011865814-806ca51e54ba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8TWVuJTIwT2xpdmUlMjBHcmVlbiUyMENhc3VhbCUyMFNoaXJ0fGVufDB8fDB8fHww)\n\n17. *Blackberrys* Men White Linen Shirt \u00e2\u20ac\u201c \u00e2\u201a\u00b91,899  \n    *Product ID*: PID017  \n    *Material*: 100% Linen  \n    *Features*: Breathable, best for summer, needs gentle care  \n    *Image link*: [View Product](https://images.unsplash.com/photo-1621773881532-fe65715b5137?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWVuJTIwV2hpdGUlMjBMaW5lbiUyMFNoaXJ0fGVufDB8fDB8fHww)\n\n18. *Raymond* Men Pink Printed Party Shirt \u00e2\u20ac\u201c \u00e2\u201a\u00b91,299  \n    *Product ID*: PID018  \n    *Material*: Cotton-modal blend  \n    *Features*: Soft, lightweight, retains print brightness  \n    *Image link*: [View Product](https://plus.unsplash.com/premium_photo-1725655855941-3f41a805ffb3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fE1lbiUyMFBpbmslMjBQcmludGVkJTIwUGFydHklMjBTaGlydHxlbnwwfHwwfHx8MA%3D%3D)\n\nLet me know if you'd like me to recommend any products based on your preferences!"
     }
+  ],
+  "chat_f3ebbf44": [
+    {
+      "prompt": "hello",
+      "response": "I encountered an error processing your request. Please try again."
+    },
+    {
+      "prompt": "dfv",
+      "response": "I encountered an error processing your request. Please try again."
+    }
+  ],
+  "chat_ae4e8198": [
+    {
+      "prompt": "sdcsd",
+      "response": "I encountered an error processing your request. Please try again."
+    },
+    {
+      "prompt": "sdc",
+      "response": "I'm happy to help! Since you didn't ask a question, I won't recommend any products. If you have a specific question or need assistance with something, feel free to ask, and I'll do my best to help!"
+    },
+    {
+      "prompt": "Suggest trending shoes under \u20b92000",
+      "response": "I'd be happy to help you with that!\n\nBased on our current collection, I'd like to recommend the following trending shoes under \u20b92000:"
+    },
+    {
+      "prompt": "Show me some stylish backpacks",
+      "response": "I'd be happy to help you with that!\n\nUnfortunately, we don't have any backpacks listed in the provided context. However, if you're interested in exploring our selection of stylish bags, I can recommend some options. Here are a few that you might like:"
+    },
+    {
+      "prompt": "What are the best sunglasses for a round face?",
+      "response": "I'd be happy to help!\n\nAs for the best sunglasses for a round face, I'd recommend considering frames that are angular and geometric in shape, as they can help balance out the curves of a round face. Here are a few tips:\n\n* Look for frames that are wider than they are deep, as this can help elongate the face.\n* Avoid round or circular frames, as they can accentuate the roundness of the face.\n* Consider frames with angled or pointed edges, as they can help create a more defined jawline.\n\nAs for specific recommendations, I'd suggest considering the following:"
+    },
+    {
+      "prompt": "show me pants under 10000",
+      "response": "Based on your request, I can show you the pants under \u20b910,000. Here are the options:\n\n* *Indian Terrain* Men Brown Casual Pants \u2013 \u20b91,199 (PID039)\n* *Flying Machine* Men Black Jogger Pants \u2013 \u20b9899 (PID040)\n* *Spykar* Men Black Slim Fit Stretchable Jeans \u2013 \u20b91,299 (PID025)\n* *Only* Women Black High-Rise Jeggings \u2013 \u20b91,299 (PID075)\n* *H\\&M* Women White Stretchable Jeans \u2013 \u20b91,499 (PID076)"
+    }
+  ],
+  "chat_bfce2d4d": [
+    {
+      "prompt": "hello",
+      "response": "Hello! How are you today? I'm here to help you with any questions or concerns you may have."
+    },
+    {
+      "prompt": "suggest me pants under 10000",
+      "response": "I'd be happy to help you with that!\n\nBased on the products listed, here are some pants under \u20b910,000:\n\n* *Spykar* Men Black Slim Fit Stretchable Jeans \u2013 \u20b91,299"
+    },
+    {
+      "prompt": "suggest me pants ",
+      "response": "I'd be happy to help you with that!\n\nBased on your request, I'd recommend the following pants:"
+    },
+    {
+      "prompt": "suggest me pants under 10000",
+      "response": "I'd be happy to help!\n\nBased on the products listed, here are some pants under \u20b910,000 that I recommend:\n\nRECOMMENDED: PID039, PID040"
+    }
+  ],
+  "chat_eb4146a4": [
+    {
+      "prompt": "show me pants under 100000",
+      "response": "Based on your request, I've filtered out pants under \u20b9100,000. Here are the results:\n\n1. *Indian Terrain* Men Brown Casual Pants \u2013 \u20b91,199"
+    },
+    {
+      "prompt": "show me pants under 100000",
+      "response": "Based on your request to show me pants under 100000, I've filtered the options for you. Here are the results:\n\n1. *Indian Terrain* Men Brown Casual Pants - \u20b91,199 (PID039)\n2. *Flying Machine* Men Black Jogger Pants - \u20b9899 (PID040)\n3. *Flying Machine* Men Grey Tapered Fit Jeans - \u20b91,399 (PID027)\n4. *Spykar* Men Black Slim Fit Stretchable Jeans - \u20b91,299 (PID025)\n5. *Only* Women Black High-Rise Jeggings - \u20b91,299 (PID075)\n6. *H\\&M* Women White Stretchable Jeans - \u20b91,499 (PID076)\n\nLet me know if you need any further assistance!"
+    },
+    {
+      "prompt": "hello",
+      "response": "Hello! It's nice to assist you."
+    },
+    {
+      "prompt": "show me pants under 100000",
+      "response": "I'd be happy to help you with that!\n\nBased on your request, I've filtered the products for you. Here are the pants under \u20b910,000:\n\n* *Indian Terrain* Men Brown Casual Pants \u2013 \u20b91,199 (PID039)\n* *Flying Machine* Men Black Jogger Pants \u2013 \u20b9899 (PID040)\n* *Spykar* Men Black Slim Fit Stretchable Jeans \u2013 \u20b91,299 (PID025)\n* *Flying Machine* Men Grey Tapered Fit Jeans \u2013 \u20b91,399 (PID027)\n\nRECOMMENDED: PID039, PID040, PID025, PID027"
+    },
+    {
+      "prompt": "show me pants under 100000",
+      "response": "I encountered an error processing your request. Please try again."
+    },
+    {
+      "prompt": "show me pants under 100000",
+      "response": "I encountered an error processing your request. Please try again."
+    },
+    {
+      "prompt": "show me pants under 100000",
+      "response": "Hi there! I'm Alex, your WalMate shopping assistant. You're looking for pants under \u20b910,000. Let me help you find some great options.\n\nFor casual wear, I'd recommend the following:\n\n1. **Indian Terrain** Men Brown Casual Pants - \u20b91,199 (PID039)\n2. **Flying Machine** Men Black Jogger Pants - \u20b9899 (PID040)\n\nBoth of these options are affordable and comfortable for everyday wear. The Indian Terrain pants are made of brushed cotton and have a rich color finish, while the Flying Machine joggers are perfect for gym and casual use.\n\nIf you're looking for something a bit more stylish, I'd suggest:\n\n1. **Spykar** Men Black Slim Fit Stretchable Jeans - \u20b91,299 (PID025)\n2. **Killer** Men Dark Blue Distressed Jeans - \u20b91,599 (PID026)\n\nThese jeans are great for a night out or a casual evening with friends. The Spykar jeans have a soft feel and are durable for regular wear, while the Killer distressed jeans have an edgy styling that's perfect for a fashion statement.\n\nWhich one of these options catches your eye? Or would you like me to show you more options?"
+    },
+    {
+      "prompt": "Suggest trending shoes under \u20b92000",
+      "response": "Hi there! I'm Alex, your WalMate shopping assistant. How can I help you find exactly what you're looking for today?\n\nSince you're looking for trending shoes under \u20b92000, I'd like to clarify a few things to give you the best recommendations. Could you please tell me:\n\n1. What type of shoes are you interested in (e.g., sneakers, boots, sandals)?\n2. What's your preferred brand or style (e.g., casual, formal, athletic)?\n3. Do you have a specific feature in mind (e.g., comfort, quality, durability)?\n\nOnce I have more information, I can provide you with some personalized recommendations that fit your needs and preferences."
+    },
+    {
+      "prompt": "Suggest trending shoes under \u20b92000",
+      "response": "I encountered an error processing your request. Please try again."
+    },
+    {
+      "prompt": "Suggest trending shoes under \u20b92000",
+      "response": "I'd be happy to help you with that! Unfortunately, I don't see any shoe products listed in the context. However, I can suggest some alternatives. Since you're looking for trending shoes under \u20b92000, I'd recommend checking out our [Shoes](https://www.example.com/shoes) section. You can filter the products by price range, brand, and style to find the perfect pair for you.\n\nIf you'd like, I can also provide you with some general tips on how to choose the right shoes for your needs. Just let me know!\n\nRECOMMENDED: PID none (No product IDs provided since no shoe products were found in the context)"
+    },
+    {
+      "prompt": "show me pants under 100000",
+      "response": "I'm happy to help you with that!\n\nI've filtered the pants for you and found a few options under \u20b910,000. Here are the results:\n\n* Indian Terrain Men Brown Casual Pants \u2013 \u20b91,199"
+    },
+    {
+      "prompt": "show me all pants in sstck",
+      "response": "I'd be happy to help you with that!\n\nBased on your request, I've filtered the products to show you all the pants available in stock. Here are the results:\n\n1. *Levi's* Men Olive Green Cargo Pants \u2013 \u20b91,899 (PID037)\n2. *UCB* Men Khaki Relaxed Fit Chinos \u2013 \u20b91,399 (PID038)\n3. *Indian Terrain* Men Brown Casual Pants \u2013 \u20b91,199 (PID039)\n4. *Flying Machine* Men Black Jogger Pants \u2013 \u20b9899 (PID040)\n\nPlease note that you can always ask me for more specific information or recommendations. I'm here to help you make an informed decision!\n\nIf you need any further assistance, feel free to ask!"
+    },
+    {
+      "prompt": "show me pants under 100000",
+      "response": "I'd be happy to help you with that!\n\nBased on your query, I've filtered the products for you. Here are the pants under \u20b910,000:\n\n* Indian Terrain Men Brown Casual Pants - \u20b91,199 (PID039)\n* Flying Machine Men Black Jogger Pants - \u20b9899 (PID040)\n* Spykar Men Black Slim Fit Stretchable Jeans - \u20b91,299 (PID025)\n* Flying Machine Men Grey Tapered Fit Jeans - \u20b91,399 (PID027)\n\nYou can check out these options by clicking on the \"View Product\" links. If you need more assistance or have any further questions, feel free to ask!"
+    },
+    {
+      "prompt": "show me all pants in sstck",
+      "response": "I'm WalMate, your blazing fast and adaptive shopping assistant!\n\nI've searched through our collection, and I've found the following pants in stock:\n\n* Levi's Men Olive Green Cargo Pants - \u20b91,899 (PID037)\n* UCB Men Khaki Relaxed Fit Chinos - \u20b91,399 (PID038)\n* Indian Terrain Men Brown Casual Pants - \u20b91,199 (PID039)\n* Flying Machine Men Black Jogger Pants - \u20b9899 (PID040)\n\nIf you'd like to explore more options or have any specific preferences, feel free to ask!"
+    },
+    {
+      "prompt": "show me all pants in sstck",
+      "response": "I'm WalMate, your blazing fast shopping assistant!\n\nTo answer your question, here are all the pants in stock:\n\n37. *Levi's* Men Olive Green Cargo Pants \u2013 \u20b91,899  \n    *Product ID*: PID037  \n    *Material*: Cotton twill  \n    *Features*: Heavy-duty wear, utility pockets reinforced\n\n38. *UCB* Men Khaki Relaxed Fit Chinos \u2013 \u20b91,399  \n    *Product ID*: PID038  \n    *Material*: Stretchable cotton  \n    *Features*: Comfortable for extended hours, durable fabric\n\n39. *Indian Terrain* Men Brown Casual Pants \u2013 \u20b91,199  \n    *Product ID*: PID039  \n    *Material*: Brushed cotton  \n    *Features*: Rich color, anti-pilling finish\n\n40. *Flying Machine* Men Black Jogger Pants \u2013 \u20b9899  \n    *Product ID*: PID040  \n    *Material*: Cotton with elastane  \n    *Features*: Flexible for gym and casual use, fade-resistant\n\nNo recommendations made, as you did not explicitly ask for product suggestions.\n\nHope this helps you find the perfect pants!"
+    },
+    {
+      "prompt": "show me all pants in sstck",
+      "response": "Hello! I'm WalMate, your blazing fast shopping assistant!\n\nI've searched our catalog for all the pants in stock. Here are the results:\n\n1. *Levi's* Men Olive Green Cargo Pants \u2013 \u20b91,899 (PID037)\n2. *UCB* Men Khaki Relaxed Fit Chinos \u2013 \u20b91,399 (PID038)\n3. *Indian Terrain* Men Brown Casual Pants \u2013 \u20b91,199 (PID039)\n4. *Flying Machine* Men Black Jogger Pants \u2013 \u20b9899 (PID040)\n\nPlease let me know if you'd like more information about any of these pants or if you'd like to narrow down the search by material, price, or any other criteria!"
+    },
+    {
+      "prompt": "show me all pants in sstck",
+      "response": "I'd be happy to help you with that!\n\nBased on your query, I found the following pants that are available in stock:\n\n1. *Levi's* Men Olive Green Cargo Pants \u2013 \u20b91,899 (PID037)\n2. *UCB* Men Khaki Relaxed Fit Chinos \u2013 \u20b91,399 (PID038)\n3. *Indian Terrain* Men Brown Casual Pants \u2013 \u20b91,199 (PID039)\n4. *Flying Machine* Men Black Jogger Pants \u2013 \u20b9899 (PID040)\n\nThese pants are available in our inventory, and you can view their product details by clicking on the image link provided.\n\nIf you'd like to filter the results further or have any questions about these products, feel free to ask!\n\nRECOMMENDED: PID037, PID038, PID039, PID040"
+    },
+    {
+      "prompt": "show me all pants in stock",
+      "response": "Hi there!\n\nI'd be happy to help you with that! \ud83c\udf89\n\nBased on your request, I've filtered the pants for you. Here are the available options:\n\n1. *Allen Solly* Men Beige Regular Fit Formal Pants \u2013 \u20b91,499 (PID033)\n2. *Peter England* Men Navy Blue Office Trousers \u2013 \u20b91,099 (PID034)\n3. *Spykar* Men Black Slim Fit Stretchable Jeans \u2013 \u20b91,299 (PID025)\n4. *Killer* Men Dark Blue Distressed Jeans \u2013 \u20b91,599 (PID026)\n5. *Indian Terrain* Men Brown Casual Pants \u2013 \u20b91,199 (PID039)\n6. *Flying Machine* Men Black Jogger Pants \u2013 \u20b9899 (PID040)\n\nThese are the pants currently in stock. Let me know if you'd like me to recommend any based on your preferences or requirements! \ud83d\ude0a"
+    },
+    {
+      "prompt": "show me all pants in stock",
+      "response": "I'd be happy to help you with that!\n\nI've retrieved a list of pants from our catalog. Here are the results:\n\n1. *Allen Solly* Men Beige Regular Fit Formal Pants - \u20b91,499 (PID033)\n2. *Peter England* Men Navy Blue Office Trousers - \u20b91,099 (PID034)\n3. *Spykar* Men Black Slim Fit Stretchable Jeans - \u20b91,299 (PID025)\n4. *Killer* Men Dark Blue Distressed Jeans - \u20b91,599 (PID026)\n5. *Indian Terrain* Men Brown Casual Pants - \u20b91,199 (PID039)\n6. *Flying Machine* Men Black Jogger Pants - \u20b9899 (PID040)\n\nYou can view each product by clicking on the \"View Product\" link."
+    },
+    {
+      "prompt": "show me all pants in stock",
+      "response": "I'd be happy to help you with that!\n\nHere are the pants in stock:\n\n* **Allen Solly** Men Beige Regular Fit Formal Pants - \u20b91,499 (PID033)\n* **Peter England** Men Navy Blue Office Trousers - \u20b91,099 (PID034)\n* **Spykar** Men Black Slim Fit Stretchable Jeans - \u20b91,299 (PID025)\n* **Killer** Men Dark Blue Distressed Jeans - \u20b91,599 (PID026)\n* **Indian Terrain** Men Brown Casual Pants - \u20b91,199 (PID039)\n* **Flying Machine** Men Black Jogger Pants - \u20b9899 (PID040)\n\nI hope this helps you find the perfect pair of pants!"
+    },
+    {
+      "prompt": "show me pants under 1000",
+      "response": "I'd be happy to help you with that.\n\nBased on your query, I've filtered the pants that are under \u20b91000. Here are some options for you to consider:\n\n* *Indian Terrain* Men Brown Casual Pants \u2013 \u20b91,199 (PID039)\n* *Flying Machine* Men Black Jogger Pants \u2013 \u20b9899 (PID040)\n\nThese pants are both under \u20b91000 and might be suitable for your needs. I've included their product IDs at the end of the response as per the format:"
+    },
+    {
+      "prompt": "show me shirts",
+      "response": "Hello! I'm WalMate, your shopping assistant.\n\nI understand you're looking for shirts. Here are some fantastic options:\n\n**Men's Shirts**\n1. *US Polo Assn.* Men Blue Classic Fit Polo T-Shirt - \u20b9899 (PID009)\n2. *Tommy Hilfiger* Men Pink Signature Logo T-Shirt - \u20b92,499 (PID010)\n3. *Van Heusen* Men Black Slim Fit Office Shirt - \u20b91,499 (PID013)\n4. *Louis Philippe* Men Grey Striped Formal Shirt - \u20b91,799 (PID014)\n\n**Men's T-Shirts**\n1. *Jack & Jones* Men Grey Striped Slim Fit T-Shirt - \u20b9799 (PID005)\n2. *Allen Solly* Men Green Polo Collar T-Shirt - \u20b9599 (PID006)\n\nIf you'd like to explore more options, feel free to ask!"
+    },
+    {
+      "prompt": "who are you",
+      "response": "Hi there! I'm WalMate, a blazing fast, adaptive shopping assistant designed to help you make informed shopping decisions with ease. I'm here to assist you with all your shopping needs, whether it's finding the perfect product, comparing prices, or just getting some expert advice. How can I help you today?"
+    },
+    {
+      "prompt": "show me text",
+      "response": "Hello! I'm WalMate, your shopping assistant. You've asked me to show you some text, but I noticed that there are no products listed in the context provided earlier. However, I can still assist you with any questions you may have or provide recommendations if you'd like.\n\nIf you're looking for products, I can suggest some based on your interests. Please let me know what type of products you're interested in, and I'll do my best to recommend some options."
+    }
+  ],
+  "chat_04ff13f2": [
+    {
+      "prompt": "recommend products",
+      "response": "Hello there! I'm WalMate, your shopping assistant. I'd be happy to help you with some product recommendations.\n\nBefore I suggest any products, could you tell me what type of products you're interested in? Are you looking for something specific like women's jeans, hoodies, or party wear? The more information you provide, the better I can tailor my recommendations to your needs.\n\nIf you're still unsure, I can give you a general suggestion based on the products listed above. However, please note that I'll only provide recommendations that are relevant to your query.\n\nLet me know how I can assist you, and I'll do my best to provide you with some great options!"
+    },
+    {
+      "prompt": "show me pants under 1000",
+      "response": "Based on your query, I can help you with that!\n\nI found a few options for pants under \u20b91000:\n\n1. *Flying Machine* Men Black Jogger Pants \u2013 \u20b9899 (PID040)\n\nYou can check out the product details by clicking on the image link.\n\nIf you're interested in exploring more options, I can certainly help you with that!"
+    },
+    {
+      "prompt": "show me all pants under 100000",
+      "response": "Hello! I'm WalMate, your blazing fast shopping assistant.\n\nI'd be happy to help you with that! Based on your query, here are the pants under \u20b910,000:\n\n1. *Indian Terrain* Men Brown Casual Pants - \u20b91,199 (PID039)\n2. *Flying Machine* Men Black Jogger Pants - \u20b9899 (PID040)\n3. *Spykar* Men Black Slim Fit Stretchable Jeans - \u20b91,299 (PID025)\n4. *Flying Machine* Men Grey Tapered Fit Jeans - \u20b91,399 (PID027)\n\nPlease note that I've only included products that match your criteria. If you'd like to explore more options or have any specific preferences, feel free to let me know!"
+    },
+    {
+      "prompt": "show me all pants under 100000",
+      "response": "I'd be happy to help you with that!\n\nBased on your request, I've filtered the pants to show you all the options under \u20b910,000. Here are the results:\n\n1. Indian Terrain Men Brown Casual Pants \u2013 \u20b91,199\n    Product ID: PID039\n    Material: Brushed cotton\n    Features: Rich color, anti-pilling finish\n    Image link: [View Product](https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1lbiUyMEJyb3duJTIwQ2FzdWFsJTIwUGFudHN8ZW58MHx8MHx8fDA%3D)\n\n2. Flying Machine Men Black Jogger Pants \u2013 \u20b9899\n    Product ID: PID040\n    Material: Cotton with elastane\n    Features: Flexible for gym and casual use, fade-resistant\n    Image link: [View Product](https://images.unsplash.com/photo-1669159423685-4fa4e23faaad?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWVuJTIwQmxhY2slMjBKb2dnZXIlMjBQYW50c3xlbnwwfHwwfHx8MA%3D%3D)\n\nHere are the recommended products:"
+    },
+    {
+      "prompt": "show me all pants under 100000",
+      "response": "Hi! I'm WalMate, your shopping assistant.\n\nI've searched for pants under \u20b91,00,000 (INR 100,000) for you. Here are the results:\n\n* Indian Terrain Men Brown Casual Pants - \u20b91,199 (PID039)\n* Flying Machine Men Black Jogger Pants - \u20b9899 (PID040)\n\nThese pants fit your budget of \u20b91,00,000. If you'd like to explore more options or need recommendations, feel free to ask!"
+    },
+    {
+      "prompt": "show me pants under 1000",
+      "response": "I'd be happy to help!\n\nBased on your request, I found some pants under 1000. Here are a few options for you:\n\nThe following pants are under 1000:\n\n* 39. Indian Terrain Men Brown Casual Pants - \u20b91,199 (PID039)\n* 40. Flying Machine Men Black Jogger Pants - \u20b9899 (PID040)\n\nThese pants are made from high-quality materials and have great features like anti-pilling finish, flexible design, and fade-resistant fabric."
+    },
+    {
+      "prompt": "show me pants under 1000",
+      "response": "I'd be happy to help you with that!\n\nBased on your query, I've filtered out the pants that are under \u20b91000. Here are the options:\n\n1. 40. Flying Machine Men Black Jogger Pants \u2013 \u20b9899\n    Product ID: PID040\n    Material: Cotton with elastane\n    Features: Flexible for gym and casual use, fade-resistant\n\n2. 25. Spykar Men Black Slim Fit Stretchable Jeans \u2013 \u20b91,299\n    Product ID: PID025\n    Material: Stretch cotton denim\n    Features: Durable for regular outings, soft feel\n\nPlease note that these are the only options under \u20b91000. If you'd like to explore more options, I can definitely help you with that!"
+    },
+    {
+      "prompt": "show shirts",
+      "response": "I'd be happy to help you with that!\n\nYou're looking for shirts, right? We have a wide range of shirts available for men. Based on your query, I'll recommend some popular options.\n\nIf you're looking for casual shirts, you might want to consider:"
+    }
   ]
 }
