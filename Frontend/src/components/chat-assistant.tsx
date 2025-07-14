@@ -43,9 +43,9 @@ interface Message {
 }
 
 const suggestedQuestions = [
-  'Suggest trending shoes under ₹2000',
-  'Show me some stylish backpacks',
-  'What are the best sunglasses for a round face?',
+  'Suggest summer shirts under ₹3000',
+  'Show me some stylish black dresses',
+  'Show hoodies under 5000',
 ];
 
 export default function ChatAssistant() {
