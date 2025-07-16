@@ -4,7 +4,7 @@ import json
 import re
 import time
 import uuid
-from pathlib import Path  # Ensure this is imported for file path handling
+from pathlib import Path 
 from typing import Any, Dict, List
 
 from auth import AuthSystem, get_user_preferences
@@ -16,8 +16,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import Chroma
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
-# from langchain.embeddings import HuggingFaceEmbeddings # Old import
-from langchain_huggingface import HuggingFaceEmbeddings  # New import
+from langchain_huggingface import HuggingFaceEmbeddings  
 
 # Global variables for chat components
 embeddings = None
